@@ -1,0 +1,112 @@
+.tituloCards {
+  color: #2c2c2c;
+  padding: 1rem;
+
+  font-size: 1.5rem;
+  font-weight: 800;
+
+  margin-left: 2rem;
+}
+
+.wrapperCards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  z-index: 10000;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  border-radius: 0.4rem;
+  margin: 0.2rem 0.6rem;
+  position: relative;
+  background-size: cover;
+}
+
+.cards img {
+  width: 2.5rem;
+  padding: 0 0 1.5rem 0;
+}
+
+.cards h2 {
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.cards p {
+  font-size: 1rem;
+
+  font-family: "Noto Sans", sans-serif;
+}
+
+.cards h2,
+.cards p {
+  padding: 0 0 0.5rem 0;
+}
+
+.cards button {
+  width: 8rem;
+  height: 2rem;
+  background: linear-gradient(to right, #295883, #152e45, #295883);
+  color: white;
+
+  border-radius: 0.7rem;
+  border: none;
+
+  font-weight: bold;
+
+  margin: 0.5rem 0 0 0;
+  cursor: pointer;
+}
+
+.contenedor-cards {
+  background-color: #f2f2f2f2;
+  padding-bottom: 2rem;
+}
+
+.fila-superior {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.fila-inferior {
+  display: flex;
+  width: 100%;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.soluciones {
+  width: 35%;
+}
+
+.soluciones:last-child {
+  margin-right: 0;
+}
+
+.tarjeta-adicional{
+  margin-top: 1.5rem;
+  margin-bottom: 0;
+}
+
+
+@media (max-width: 1024px) {
+ .fila-superior, .fila-inferior{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cards{
+    margin: 1rem;
+  }
+
+
+}

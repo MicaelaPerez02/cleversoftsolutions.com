@@ -1,0 +1,108 @@
+.nosotros {
+    background-image: url('../imagenes/backgroundNosotros.png');
+    background-size: cover;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    padding: 2rem 4rem;
+}
+
+
+.nosotros h3 {
+    font-size: 1.2em;
+    color: white;
+    padding-bottom: 0.5rem;
+}
+
+
+.nosotros h2 {
+    display: inline;
+    background-color: #375964;
+    color: #FFF;
+    padding: 0 0.5rem;
+
+    font-size: 3.5rem;
+}
+
+.background-title {
+    background-color: #375964;
+    color: #FFF;
+    padding: 0 5px;
+}
+
+.nosotros p {
+    font-size: 1.3rem;
+
+    color: #ffffff;
+
+    margin: 1rem 7rem 0 0;
+}
+
+.nosotrosPoliticaDeCalidad {
+    width: 200%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+
+    background-color: #375964;
+
+    margin: 6rem 2.5rem 0 0;
+}
+
+.nosotrosPoliticaDeCalidad ul {
+    margin: 0;
+    padding: 0 0 1rem 0;
+    list-style: none;
+}
+
+.nosotrosPoliticaDeCalidad ul li {
+    color: #ffffff;
+
+    padding: 1.3rem 2rem;
+}
+
+.nosotrosPoliticaDeCalidad ul li i {
+    margin: 0.5rem 0.5rem 1rem 0;
+}
+
+.nosotrosPoliticaDeCalidad ul li strong {
+    color: #21B5D2;
+    font-size: 1.2em;
+    margin-top: 0;
+    margin: 0 0 0 1.5rem;
+}
+
+.nosotrosPoliticaDeCalidad p {
+    font-size: 1rem;
+    margin: 0 0 0 2.5rem;
+}
+
+.icono {
+    vertical-align: middle;
+    padding-right: 0.5rem;
+}
+
+
+@media (max-width: 1024px) {
+    .nosotros {
+        flex-direction: column;
+    }
+
+    .nosotrosPoliticaDeCalidad {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin: 2rem 0 0 0;
+    }
+
+    .nosotros p {
+        margin: 2rem 0 0 0;
+    }
+
+    .nosotros h2 {
+        font-size: 2.5rem;
+    }
+
+}

@@ -1,0 +1,14 @@
+* {
+    font-family: 'Roboto Slab', serif;
+    overflow-x: hidden;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
